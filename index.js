@@ -1,9 +1,12 @@
 var express = require('express');
 var app = express();
+var bodyparser = require('body-parser');
 
-app.get('/', function (req, res) {
-    res.send('Hello World!');
-});
+app.use(bodyparser.json());
+
+app.post('/event', function(request, response) {
+    console.log("body", request.body.hello)
+})
 
 app.listen(3000, function() {
     console.log('Example app listening on port 3000');
