@@ -1,0 +1,19 @@
+{
+  "name": "kyrene",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "hahahah"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/vbayarri/kyrene.git"
+  },
+  "author": "Victor Bayarri",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/vbayarri/kyrene/issues"
+  },
+  "homepage": "https://github.com/vbayarri/kyrene#readme"
+}
