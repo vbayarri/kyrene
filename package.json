@@ -15,5 +15,8 @@
   "bugs": {
     "url": "https://github.com/vbayarri/kyrene/issues"
   },
-  "homepage": "https://github.com/vbayarri/kyrene#readme"
+  "homepage": "https://github.com/vbayarri/kyrene#readme",
+  "dependencies": {
+    "express": "^4.14.0"
+  }
 }
